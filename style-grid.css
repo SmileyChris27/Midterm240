@@ -1,0 +1,31 @@
+.site{
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-gap: 1em;
+    align-items: stretch;
+
+}
+
+.masthead {
+	grid-column: 1/3;
+	grid-row: 1/2;
+}
+
+
+.sidebar{
+	grid-column: 1/2;
+	grid-row: 2/4;
+}
+
+.main-content{
+	grid-column: 2/3;
+	grid-row: 2/4;
+
+}
+
+.footer-content{
+	grid-column: 1/3;
+	grid-row: 4/5;
+}
+
+

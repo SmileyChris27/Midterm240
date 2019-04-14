@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	s
+	<title>Contact Form</title>
+	    <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" type="text/css" href="main.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<body>
+<body class="homebg">
+	
+
+  <nav class="topnav" id="myTopnav">
+          <a href="index.html" class="active">Home</a>
+          <a href="Contact.html">Contact</a>
+          <a href="About.html">About</a>
+          <a href="TechNews.html">Tech News</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+      </nav>
+
+
+  <div class="contact-title">
+		<h1>Welcome To Smiley Chris's Page</h1>
+		<h2>Have some questions? Please email us here.</h2>
+	</div>
+
+	<div class="contact-form"
+		<form id="contact-form" method="post" action="contact-form-handler.php">
+		<input name="name" type="text" class="form-control" placeholder="Your Name" required>
+		<br>
+			<input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
+
+			<textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea><br>
+
+			<input type="submit" class="form-control submit" value="SEND MESSAGE">
+          
+
+
+<script>            
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+
+</body>
+</head>
+</html>
